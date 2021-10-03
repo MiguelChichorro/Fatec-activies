@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    int placa, finalP; // FinalP - Final da Placa.
+    int placa, finalP;
     printf("Digite a placa (Apenas numeros): ");
     scanf("%d", &placa);
     finalP = placa % 10;
