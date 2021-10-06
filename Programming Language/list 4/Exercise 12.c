@@ -11,7 +11,6 @@ int npa (void){
 	}
 	return n;
 }
-
 int main (void){
 	while( !_kbhit() ){
 		printf("%d\n",npa());

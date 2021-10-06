@@ -8,7 +8,6 @@ int main (void)
 	printf("O caractere digitado em minusculo eh %c\n", minuscula(x));
 	return 0;
 }
-
 int minuscula(c){
 	if ((c)>=65 && (c)<=90){
 		(c) += 32;

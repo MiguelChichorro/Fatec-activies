@@ -6,7 +6,6 @@ void sequencia(void){
 	static int n=0;
 	printf("%d,", n++);	
 }
-
 int main (void){
 	while ( !_kbhit() ){
 		sequencia();

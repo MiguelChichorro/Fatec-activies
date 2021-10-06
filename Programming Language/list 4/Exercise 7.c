@@ -8,7 +8,6 @@ int main (void){
 	printf("\nQuadrado deste numero eh = %2d\n", quadradosperfeitos(res,n,soma));
 	return 0;
 }
-
 int quadradosperfeitos (res,n,soma){
 	res = 1;
 	soma = res;

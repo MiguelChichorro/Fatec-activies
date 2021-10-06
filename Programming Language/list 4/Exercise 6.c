@@ -21,7 +21,6 @@ int main (void)
 	}
 	return 0;
 }
-
 int valida (int d, int m, int a)
 {
 	if (m==2 && bissexto(a) == 1 && (d>29 || d<1)){
@@ -45,7 +44,6 @@ int valida (int d, int m, int a)
 	else
 		return 1;
 }
-
 int ultimo_dia(int m,int a)
 {
 	if (m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12)
@@ -57,7 +55,6 @@ int ultimo_dia(int m,int a)
 	if (m == 2 && bissexto(a)==0)
 		return 28;
 }
-
 int bissexto (a)
 {
 	if (a % 400 == 0) {
@@ -70,7 +67,6 @@ int bissexto (a)
 		return 0;
 	}
 }
-
 int exibe_ds(int d, int m, int a)
 {
 	if ((m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10) && (d<31)){

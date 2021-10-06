@@ -10,7 +10,6 @@ int Passo02(float r, float x){
         Passo02 (r,x);
     }
 }
-
 int main (void) {
 	float x, r;
 	printf ("Valor de X ? \n");

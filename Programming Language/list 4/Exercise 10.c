@@ -7,7 +7,6 @@ int main (void){
 	dds(n);
 	return 0;
 }
-
 int dds(n){
 	if ((n<1) && (n>7))
 		return 0;
