@@ -9,7 +9,6 @@ int main(void)
 		aux = fibonacci(i+1);		
 	printf("A n-esimo termo eh:%d\n", aux);
 }
-
 int fibonacci(int n)
 {
    if(n==1 || n==2)

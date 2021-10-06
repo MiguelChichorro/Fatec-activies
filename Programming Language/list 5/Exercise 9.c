@@ -7,7 +7,6 @@ int main(void){
 	par(n);
 	return 0;
 }
-
 int par(int n){
 	if (n==1){
 		printf("O numero eh impar\n");

@@ -3,9 +3,8 @@
 int cp(int n){
 	for (int i = 0; i <= n; i++)
 		printf("%d\n", i);
-		return 1;
+	return 1;
 }
-
 int main (void){
 	int n;
 	printf("Num? ");

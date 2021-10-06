@@ -10,7 +10,6 @@ void binario(int n){
 		printf("%d",n%2);
 	}
 }
-
 int main(void){
 	int n;
 	printf("Num? ");

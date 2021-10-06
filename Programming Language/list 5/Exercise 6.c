@@ -5,7 +5,6 @@ int cr(int n){
 	printf("%d\n", n);
 	return n - cr(n-1);
 }
-
 int main (void){
 	int n;
 	printf("Num? ");
