@@ -20,3 +20,4 @@ int quadradosperfeitos (res,n,soma){
 	}
 	return soma;
 }
+ 
